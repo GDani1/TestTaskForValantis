@@ -1,1 +1,1 @@
-test-task-for-valantis.vercel.app
+https://test-task-for-valantis.vercel.app/
