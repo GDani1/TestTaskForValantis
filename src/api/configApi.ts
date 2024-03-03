@@ -55,7 +55,7 @@ const getDataByFilters = async (
     setItems(items.result);
     setLoading(false);
   } catch (error) {
-    console.log(error, "121212");
+    console.error(error);
     getDataByFilters(searchValue, searchParam, setLoading, setItems);
   }
 };
@@ -78,7 +78,7 @@ const getData = async (offset: number, setLoading, setItems) => {
     setItems(uniqueItems);
     setLoading(false);
   } catch (error) {
-    console.log(error, "121212");
+    console.error(error);
     getData(offset, setLoading, setItems);
   }
 };
